@@ -1,0 +1,31 @@
+{
+  "06b9e85c-a7ec-48a6-bcc5-95aae638c89c": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "bypassConsent": true,
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1588/1.0.1588.2938/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://ccolabs.sharepoint.com/sites/JuniorStuartApp": {
+        "dataSources": {
+          "Registro de productos": {
+            "tableName": "eee27461-11e2-46e3-8d65-55c7d7d874b3"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Registro de productos"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "06b9e85c-a7ec-48a6-bcc5-95aae638c89c"
+  }
+}
